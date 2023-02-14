@@ -183,6 +183,145 @@
             </div>
         </div>
     </div>
+
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="bg-light p-3 rounded border">
+                    <h2>Gondviselő személyes adatai</h2>
+                    <div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="gondviselo_vezeteknev">Vezetéknév:</label>
+                                <input type="text" name="gondviselo_vezeteknev" id="gondviselo_vezeteknev" class="form-control">
+                                <span class="small fst-italic">Pl.: Török</span>
+                            </div>
+                            <div class="col">
+                                <label for="gondviselo_keresztnev">Keresztnév:</label>
+                                <input type="text" name="gondviselo_keresztnev" id="gondviselo_keresztnev" class="form-control">
+                                <span class="small fst-italic">Pl.: Flóris</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-3">
+                        <label for="gondviselo_rokonsagi_fok">Rokonsági fok:</label>
+                        <input type="text" name="gondviselo_rokonsagi_fok" id="gondviselo_rokonsagi_fok" class="form-control">
+                        <span class="small fst-italic">Pl.: apa, anya, nevelőanya stb.</span>
+                    </div>
+
+                    <div class="mt-3">
+                        <div class="row">
+                            <div class="col">
+                                <label for="gondviselo_email_cim">E-mail cím:</label>
+                                <input type="email" name="gondviselo_email_cim" id="gondviselo_email_cim" class="form-control">
+                                <span class="small fst-italic">Pl.: szulonev@domain.hu</span>
+                            </div>
+                            <div class="col">
+                                <label for="gondviselo_telefonszam">Mobil telefonszám:</label>
+                                <input type="text" name="gondviselo_telefonszam" id="gondviselo_telefonszam" class="form-control">
+                                <span class="small fst-italic">Pl.: +36201234567</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="bg-light p-3 border rounded">
+                    <h2>Gondviselő állandó lakhelye</h2>
+
+                    <div>
+                        <div class="row">
+                            <div class="col-3">
+                                <label for="gondviselo_allando_lh_irsz">Irányítószám</label>
+                                <input type="number" name="gondviselo_allando_lh_irsz" id="gondviselo_allando_lh_irsz" class="form-control" maxlength="4">
+                                <span class="small fst-italic">Pl.: 1214</span>
+                            </div>
+                            <div class="col-9">
+                                <label for="gondviselo_allando_lh_telepules">Település:</label>
+                                <input type="text" name="gondviselo_allando_lh_telepules" id="gondviselo_allando_lh_telepules" class="form-control" maxlength="100">
+                                <span class="small fst-italic">Pl.: Budapest XX.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-3">
+                        <div class="row">
+                            <div class="col-8">
+                                <label for="gondviselo_allando_lh_kozterulet_nev">Közterület neve:</label>
+                                <input type="text" name="gondviselo_allando_lh_kozterulet_nev" id="gondviselo_allando_lh_kozterulet_nev" class="form-control" maxlength="100">
+                                <span class="small fst-italic">Pl.: Kossuth Lajos.</span>
+                            </div>
+                            <div class="col-4">
+                                <label for="gondviselo_allando_lh_kozterulet_jellege">Közterület jellege:</label>
+                                <input type="text" name="gondviselo_allando_lh_kozterulet_jellege" id="gondviselo_allando_lh_kozterulet_jellege" class="form-control" maxlength="100">
+                                <span class="small fst-italic">Pl.: utca</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-3">
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="gondviselo_allando_lh_kozterulet_hazszam">Házszám, emelet, ajtó stb.:</label>
+                                <input type="text" name="gondviselo_allando_lh_kozterulet_hazszam" id="gondviselo_allando_lh_kozterulet_hazszam" class="form-control" maxlength="30">
+                                <span class="small fst-italic">Pl.: 89/a</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="bg-light mt-3 p-3 border rounded">
+                    <h2>Gondviselő ideiglenes lakhelye</h2>
+
+                    <div>
+                        <div class="row">
+                            <div class="col-3">
+                                <label for="gondviselo_ideiglenes_lh_irsz">Irányítószám</label>
+                                <input type="number" name="gondviselo_ideiglenes_lh_irsz" id="gondviselo_ideiglenes_lh_irsz" class="form-control" maxlength="4">
+                                <span class="small fst-italic">Pl.: 1214</span>
+                            </div>
+                            <div class="col-9">
+                                <label for="gondviselo_ideiglenes_lh_telepules">Település:</label>
+                                <input type="text" name="gondviselo_ideiglenes_lh_telepules" id="gondviselo_ideiglenes_lh_telepules" class="form-control" maxlength="100">
+                                <span class="small fst-italic">Pl.: Budapest XX.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-3">
+                        <div class="row">
+                            <div class="col-8">
+                                <label for="gondviselo_ideiglenes_lh_kozterulet_nev">Közterület neve:</label>
+                                <input type="text" name="gondviselo_ideiglenes_lh_kozterulet_nev" id="gondviselo_ideiglenes_lh_kozterulet_nev" class="form-control" maxlength="100">
+                                <span class="small fst-italic">Pl.: Kossuth Lajos.</span>
+                            </div>
+                            <div class="col-4">
+                                <label for="gondviselo_ideiglenes_lh_kozterulet_jellege">Közterület jellege:</label>
+                                <input type="text" name="gondviselo_ideiglenes_lh_kozterulet_jellege" id="gondviselo_ideiglenes_lh_kozterulet_jellege" class="form-control" maxlength="100">
+                                <span class="small fst-italic">Pl.: utca</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-3">
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="gondviselo_ideiglenes_lh_kozterulet_hazszam">Házszám, emelet, ajtó stb.:</label>
+                                <input type="text" name="gondviselo_ideiglenes_lh_kozterulet_hazszam" id="gondviselo_ideiglenes_lh_kozterulet_hazszam" class="form-control" maxlength="30">
+                                <span class="small fst-italic">Pl.: 89/a</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>            
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
